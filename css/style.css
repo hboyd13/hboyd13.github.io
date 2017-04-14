@@ -1,0 +1,220 @@
+body{
+	background-image: url(../imgs/background5.jpg);
+	background-repeat: no-repeat;
+	
+	background-size: cover;
+}
+
+.enter{
+	color: black;
+	margin-top: 300px;
+	text-align: center;
+	text-decoration: none;
+} 
+
+}
+.entrance{
+	margin-top: 300px;
+
+}
+
+
+
+h1{
+	color: #966F33;
+	font-family: 'Cabin Sketch', cursive;
+	text-align: center;
+}
+
+nav{
+	text-align: center;
+
+}
+nav a {
+	color:#966F33;
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 1.5em;
+	text-decoration: none;
+	padding-right: 20px;
+	
+}
+nav a:hover{
+	color: black;
+	cursor:pointer;
+}
+
+nav a:active{
+	color: black;
+}
+.picture{
+
+	float: left;
+	margin-left: 250px;
+	padding-right: 20px;
+	
+
+}
+
+.personal{
+	color: #966F33;
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 1.2em;
+	margin-left: 650px;
+	margin-right: 300px;
+
+
+	
+}
+
+
+.resume{
+	margin-left: 300px;
+}
+/*.form{
+	clear:both;
+	float:left;
+	display:inline;
+	
+}*/
+
+/*.contact{
+
+	float:right;
+	margin-left: 600px;
+}
+*/
+
+/*table{
+	background-color: #fff;
+	border: 2px solid black;
+	border-radius: 3px;
+	height: 100px;
+}
+thead{
+	border: 1px solid #007e86;
+
+}
+th{
+	border: 1px solid #007e86;
+
+}
+tr{
+	border: .5px solid #007e86;
+	height: 100px;
+}
+td{
+	border: .5px solid #007e86;
+}*/
+
+
+/*.name{
+	border-radius:5px;
+}
+.email{
+	border-radius: 5px;
+}
+.phone{
+	border-radius: 5px;
+}
+.subject{
+	border-radius: 5px;
+}*/
+
+textarea{
+	border-radius: 5px;
+	height: 50px;
+	outline: none;
+	overflow: auto;
+	resize: none;
+	width: 200px;
+}
+footer{
+	clear:both;
+}
+.linkedin{
+ 	float:left;
+ 	clear:both;
+}
+
+.headfoot{
+	float:right;
+	clear:both;
+}
+.submit{
+	background-color: black;
+	border: none;
+	color: #966F33;
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Cabin Sketch', cursive;
+}
+.reset{
+	background-color: black;
+	border: none;
+	color: #966F33;
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Cabin Sketch', cursive;
+
+}
+
+
+/* test code */
+
+  
+article {
+   font-family: 'Cabin Sketch', cursive;
+}
+
+.label-input-pair {
+ 	font-family: 'Cabin Sketch', cursive;
+ 	line-height: 20px
+	
+   
+   margin: 0 auto;
+   width: 300px;
+  
+}
+
+label.form-label {
+	color: #966F33;
+   display: block;
+   font-weight: bold;
+   font-size: 14px;
+   font-family: 'Cabin Sketch', cursive;
+   margin-bottom: 5px;
+   outline: none;
+}
+textarea.form-input {
+   border: 4px solid #966F33 ;
+   border-radius: 2px;
+   box-sizing: border-box;
+   color: #ccc;
+   display: block;
+   font-size: 14px;
+   font-family: 'Cabin Sketch', cursive;
+   outline: none;
+   padding: 5px 10px;
+   width: 300px;
+}
+
+input[type="text"].form-input {
+   border: 4px solid #966F33;
+   border-radius: 2px;
+   box-sizing: border-box;
+   color: #ccc;
+   display: block;
+   font-size: 14px;
+   font-family: 'Cabin Sketch', cursive;
+   outline: none;
+   padding: 5px 10px;
+   width: 300px;
+}
+
+
+
+input[type="text"].form-input:focus {
+   border-color: black ;
+   color: #000;
+}
+
