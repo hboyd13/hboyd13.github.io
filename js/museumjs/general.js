@@ -1,12 +1,26 @@
+// document.getElementById( 'sizes' ).style.display = 'none';
 
-$.ajax({
-  url: 'https://gateway.marvel.com:443/v1/public/characters?apikey=0e1be5e02b8caea25a3b20f3e7be07c0',
-  
-  success: function successHandler(data){
-  	console.log(data);
-  }
-  
-});
+// document.getElementById('up').onmouseover = function(){
+//    document.getElementById('sizes').style.display = 'block';
+// }
+// document.getElementById('up').onmouseout = function(){
+//    document.getElementById('sizes').style.display = 'none';
+// }
 
-console.log("hello world");
+document.getElementById("tshirts").style.display = "none";
 
+document.getElementById("dropUp").onmouseover = function(){
+	document.getElementById("tshirts").style.display = "block";
+}
+document.getElementById("dropUp").onmouseout = function() {
+	document.getElementById("tshirts").style.display = "none";
+}
+
+document.getElementById("colors").style.display = "none";
+
+document.getElementById("color-box").onmouseover = function() {
+	document.getElementById("colors").style.display = "block";
+}
+document.getElementById("color-box").onmouseout = function() {
+	document.getElementById("colors").style.display = "none";
+}
