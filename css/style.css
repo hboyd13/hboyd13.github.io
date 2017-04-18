@@ -67,6 +67,9 @@ body {
 button{
   display: none;
 }
+a:hover{
+  text-decoration: none;
+}
 /* Featurettes
 ------------------------- */
 
@@ -75,7 +78,7 @@ button{
 }
 
 /* Thin out the marketing headings */
-.featurette-heading {
+.heading {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -.05rem;
@@ -93,13 +96,13 @@ button{
     line-height: 1.4;
   }
 
-  .featurette-heading {
+  .heading {
     font-size: 50px;
   }
 }
 
 @media (min-width: 62em) {
-  .featurette-heading {
+  .heading {
     margin-top: 7rem;
   }
 }
