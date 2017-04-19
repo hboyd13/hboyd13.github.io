@@ -44,6 +44,7 @@ table {
   text-align: center; }
 
 .three-shirt-wrapper {
+  display: inline-block;
   width: 100%; }
 
 .tshirt-box1 {
@@ -56,7 +57,8 @@ table {
   display: inline-block;
   border: 3px solid #5CA4D7;
   height: 41em;
-  margin-left: 10em;
+  margin-left: 5em;
+  margin-top: 5em;
   width: 35em;
 }
 .flip-box {
@@ -105,7 +107,7 @@ table {
   height: 3.35em;
   padding-top: 1.6em;
   padding-left: 2.5em;
-  width: 4.25em; }
+  width: 4.21em; }
   .button-options .fa {
     color: #5CA4D7; }
 
@@ -124,9 +126,29 @@ table {
 .sizes {
   color: #5CA4D7;
   font-size: 2em; }
-
-.button-options:last-child {
-  border-right: none; }
+.tshirt-box1 div:nth-last-child(2), .tshirt-box2 div:nth-last-child(2), .tshirt-box3 div:nth-last-child(2){
+  border-right: none;
+  width: 4.464em;
+}
+.shirt-names{
+  clear:both;
+}
+.shirt-names .save-trees, .shirt-names .nature-lover, .shirt-names .forrest-walk{
+  padding-top: .5em;
+  color: #5CA4D7;
+  float:left;
+  font-family: Helvetica;
+  font-weight: 100;
+  font-size: 2em;
+}
+.shirt-names .save-trees-price, .shirt-names .nature-lover-price, .shirt-names .forrest-walk-price{
+  color: #5CA4D7;
+  float: right;
+  padding-top: .5em;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 2em;
+}
 
 #tshirts, #tshirts2, #tshirts3 {
   background-color: white;
@@ -347,4 +369,41 @@ table {
   top: 79;
   right: 20; }
 
+/*.tshirt-text{
+  display: inline-block;
+  margin-top: 1em;
+  width: 100%;
+}
+.tshirt-text-1{
+  display: block;
+  width: 35em;
+  margin-left: 5em;
+}
+.tshirt-text-2{
+  display: block;
+  width: 35em;
+  margin-left: 11em;
+}
+.tshirt-text-3{
+  display: block;
+  width: 35em;
+  margin-left: 10.5em;
+}
+.shirtname{
+  color: #5CA4D7;
+  font-family: Helvetica;
+  font-weight: 100;
+  font-size: 2em;
+  float:left;
+}
+.shirtprice{
+  color: #5CA4D7;
+  font: 2em Helvetica;
+  font-weight: bold;
+  float:right;
+}
+.shirt-names p{
+  clear:both;
+  float: left;
+}*/
 /*# sourceMappingURL=style.css.map */

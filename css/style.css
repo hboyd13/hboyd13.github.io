@@ -45,6 +45,10 @@ a:hover{
 
 .back-to-top{
   float: right;
+  
+}
+.personal{
+  float: left;
 }
 /* Featurettes
 ------------------------- */
