@@ -8,14 +8,14 @@ body {
   color: #5a5a5a;
 }
 
-.marketing .col-lg-4 {
+.container .col-lg-4 {
   margin-top: 1.5rem;
   text-align: center;
 }
-.marketing h2 {
+.container h2 {
   font-weight: normal;
 }
-.marketing .col-lg-4 p {
+.container .col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
 }
@@ -38,6 +38,10 @@ button{
 }
 a:hover{
   text-decoration: none;
+}
+
+.back-to-top{
+  float: right;
 }
 /* Featurettes
 ------------------------- */
