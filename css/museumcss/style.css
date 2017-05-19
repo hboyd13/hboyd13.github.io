@@ -40,6 +40,7 @@ table {
   border-spacing: 0; }
 
 .tailored-tshirt {
+  font-family: Arial;
   font-size: 5em;
   text-align: center; }
 
@@ -116,6 +117,7 @@ table {
   color: #5CA4D7; }
 
 .button-options:hover {
+  cursor: pointer;
   background-color: #5CA4D7; }
 
 .button-options:hover .fa {
@@ -125,6 +127,7 @@ table {
   color: white; }
 
 .flip-box:hover {
+  cursor: pointer;
   background-color: #5CA4D7; }
 
 .flip-box:hover .fa {
@@ -133,6 +136,7 @@ table {
 .sizes {
   color: #5CA4D7;
   font-size: 2em; }
+
 
 .tshirt-box1 div:nth-last-child(2), .tshirt-box2 div:nth-last-child(2), .tshirt-box3 div:nth-last-child(2) {
   border-right: none;
