@@ -4,7 +4,7 @@
   max-width: 1600px;
   padding: 0 1rem;
   width: 100%; }
-  
+
 .topnav {
   border: 1px solid lightgrey;
   clear: both;
@@ -53,7 +53,7 @@
   width: 9rem; }
 
 .cma-banner {
-  background-image: url(../../imgs/cmabanner.jpg);
+  background-image: url(imgs/cmabanner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -125,7 +125,6 @@
   border-radius: 7px;
   clear: both;
   color: white;
-  float: right;
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   height: 2.5rem;
@@ -290,6 +289,7 @@ hr {
     box-shadow: -1px -2px lightgrey;
     height: 2.5rem;
     margin-right: 2rem;
+    margin-left: 2em;
     width: 60%; }
 
   .submitbutton-hidden {
@@ -340,6 +340,9 @@ hr {
     margin-left: 1rem;
     padding-left: .5rem;
     /*width: 10rem;*/ }
+  .addoptions{
+    padding-right: 1em;
+  }
 
   .submitreg {
     margin-left: 40%;
@@ -369,6 +372,7 @@ hr {
     align-content: center;
     display: block;
     width: 60%; } }
+
 @media only screen and (min-width: 1px) and (max-width: 450px) {
   .cmalogo {
     margin-left: 1rem;
@@ -379,9 +383,13 @@ hr {
 
   nav p {
     display: block;
-    padding-right: 8rem;
+    padding-right: 6rem;
+    padding-bottom: 1em;
     border-bottom: 1px solid #e8e8e9;
-    border-width: 100%; }
+    width: 73%; }
+  nav p:last-child{
+    border-bottom: none;
+  }
 
   .search-bar, .cma-banner {
     display: none; }
@@ -450,7 +458,7 @@ hr {
 
   .submitreg {
     /*margin-left: 1.3rem;*/
-    margin-right: 1rem;
+    margin-left: 5%;
     width: 90%; }
 
   .donations {
@@ -484,10 +492,7 @@ hr {
 
   .mlevel, .addoptions {
     display: block;
-    width: 75%; }
-
-  .bottomnav {
-    display: inline; }
+    width: 63%; }
 
   .bottomnav a {
     display: block;

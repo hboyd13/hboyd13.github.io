@@ -39,8 +39,32 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+body {
+  background-color: #777; }
+
+.navbar {
+  background-color: #5CA4D7;
+  border: 2px solid black;
+  box-shadow: 1px 1px 2px black;
+  display: inline-block;
+  text-align: center;
+  width: 100%; }
+
+.navbar p {
+  display: inline-block;
+  font-size: 1.8em;
+  margin: 1em;
+  margin-left: 4em;
+  margin-right: 4em;
+  text-decoration: none; }
+
+.navbar p a {
+  color: black;
+  text-decoration: none; }
+  .navbar p a:hover {
+    text-shadow: .5px .5px 1px black; }
+
 .tailored-tshirt {
-  font-family: Arial;
   font-size: 5em;
   text-align: center; }
 
@@ -49,15 +73,19 @@ table {
   width: 100%; }
 
 .tshirt-box1 {
+  background-color: white;
   border: 3px solid #5CA4D7;
+  box-shadow: 2px 2px 4px black;
   display: inline-block;
   height: 41em;
-  margin-left: 3em;
+  margin-left: 15em;
   width: 35em; }
 
 .tshirt-box2, .tshirt-box3 {
+  background-color: white;
   display: inline-block;
   border: 3px solid #5CA4D7;
+  box-shadow: 2px 2px 4px black;
   height: 41em;
   margin-left: 3em;
   margin-top: 5em;
@@ -78,6 +106,7 @@ table {
   padding-bottom: .3em; }
 
 .tshirt1 {
+  background-color: white;
   background-image: url(../../imgs/shirt_blue.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -87,6 +116,7 @@ table {
   width: 35em; }
 
 .tshirt2 {
+  background-color: white;
   background-image: url(../../imgs/shirt_pink.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -96,6 +126,7 @@ table {
   width: 35em; }
 
 .tshirt3 {
+  background-color: white;
   background-image: url(../../imgs/shirt_yellow.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -105,6 +136,7 @@ table {
   width: 35em; }
 
 .button-options {
+  background-color: white;
   border-top: 3px solid #5CA4D7;
   border-right: 3px solid #5CA4D7;
   float: left;
@@ -136,7 +168,6 @@ table {
 .sizes {
   color: #5CA4D7;
   font-size: 2em; }
-
 
 .tshirt-box1 div:nth-last-child(2), .tshirt-box2 div:nth-last-child(2), .tshirt-box3 div:nth-last-child(2) {
   border-right: none;
@@ -379,5 +410,33 @@ table {
   position: absolute;
   top: 79;
   right: 20; }
+
+@media only screen and (max-width: 1284px) {
+  .tshirt-box3 {
+    display: inline-block;
+    border: 3px solid #5CA4D7;
+    height: 41em;
+    margin-left: 15em;
+    margin-top: 5em;
+    width: 35em; } }
+@media only screen and (max-width: 895px) {
+  .tshirt-box2 {
+    display: inline-block;
+    border: 3px solid #5CA4D7;
+    height: 41em;
+    margin-left: 15em;
+    margin-top: 5em;
+    width: 35em; }
+
+  .tshirt-box1, .tshirt-box2, .tshirt-box3 {
+    display: inline-block;
+    border: 3px solid #5CA4D7;
+    height: 41em;
+    margin-left: 3em;
+    margin-top: 5em;
+    width: 35em; } }
+@media only screen and (max-width: 563px) {
+  .navbar p {
+    display: block; } }
 
 /*# sourceMappingURL=style.css.map */
