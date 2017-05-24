@@ -459,14 +459,12 @@ hr {
     display: none;
   }
   .tablet-search-bar {
-    /*display:none;*/
     background-color: white;
     height: 20%;
     padding-top: 0;
   }
   .search-bar-hidden{
-    /*display: none;*/
-
+   
 
   }
   .cell-search-bar{
@@ -476,6 +474,7 @@ hr {
     width: 100%;
   }
   .search-box-hidden{
+    display: block;
     margin-left: 1rem;
     margin-top: 1rem;
     width: 90%;
